@@ -9,3 +9,17 @@
 
 <h1><?php bloginfo('name') ?></h1>
 <p><?php bloginfo('description') ?></p>
+
+<?php
+
+    $names = array('Salvo','Giovanni', 'Paola','Mattia');
+
+    $count = 0;
+
+    while($count < sizeof($names)){
+        echo "<li> Hi, my name is $names[$count] </li>";
+        $count++;
+    }
+
+?>
+

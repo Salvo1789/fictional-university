@@ -7,3 +7,29 @@ Stack trace:
   thrown in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 6
 [15-Oct-2023 14:05:12 UTC] PHP Parse error:  syntax error, unexpected identifier "bloginfo" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
 [15-Oct-2023 14:05:15 UTC] PHP Parse error:  syntax error, unexpected identifier "bloginfo" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 10
+[15-Oct-2023 19:58:42 UTC] PHP Parse error:  syntax error, unexpected variable "$count", expecting "," or ";" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 21
+[15-Oct-2023 19:58:51 UTC] PHP Parse error:  syntax error, unexpected variable "$count", expecting "," or ";" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 21
+[15-Oct-2023 19:58:54 UTC] PHP Parse error:  syntax error, unexpected variable "$count", expecting "," or ";" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 21
+[15-Oct-2023 19:59:03 UTC] PHP Parse error:  syntax error, unexpected variable "$count", expecting "," or ";" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 21
+[15-Oct-2023 19:59:04 UTC] PHP Parse error:  syntax error, unexpected variable "$count", expecting "," or ";" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 21
+[15-Oct-2023 20:01:12 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "length" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:19
+Stack trace:
+#0 C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\my-ch\\...')
+#2 C:\Users\my-ch\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\my-ch\\...')
+#3 {main}
+  thrown in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 19
+[15-Oct-2023 20:01:33 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "sizeof" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:19
+Stack trace:
+#0 C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\my-ch\\...')
+#2 C:\Users\my-ch\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\my-ch\\...')
+#3 {main}
+  thrown in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 19
+[15-Oct-2023 20:01:56 UTC] PHP Warning:  Undefined array key "count" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 20
+[15-Oct-2023 20:01:56 UTC] PHP Warning:  Undefined array key "count" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 20
+[15-Oct-2023 20:01:56 UTC] PHP Warning:  Undefined array key "count" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 20
+[15-Oct-2023 20:01:56 UTC] PHP Warning:  Undefined array key "count" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 20
+[15-Oct-2023 20:01:56 UTC] PHP Warning:  Undefined array key "count" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 20
+[15-Oct-2023 20:02:29 UTC] PHP Warning:  Undefined array key 4 in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 20
+[15-Oct-2023 20:02:30 UTC] PHP Warning:  Undefined array key 4 in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 20
