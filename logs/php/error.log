@@ -35,3 +35,27 @@ Stack trace:
 [15-Oct-2023 20:02:30 UTC] PHP Warning:  Undefined array key 4 in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 20
 [17-Oct-2023 10:14:08 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_footer" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\footer.php on line 3
 [17-Oct-2023 13:22:57 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 3
+[19-Oct-2023 08:28:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_description() in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php:10
+Stack trace:
+#0 C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\my-ch\\...')
+#2 C:\Users\my-ch\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\my-ch\\...')
+#3 {main}
+  thrown in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 10
+[19-Oct-2023 08:39:26 UTC] PHP Parse error:  syntax error, unexpected token "-", expecting "(" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 12
+[19-Oct-2023 08:39:27 UTC] PHP Parse error:  syntax error, unexpected token "-", expecting "(" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 12
+[19-Oct-2023 10:03:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_parent_title() in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php:21
+Stack trace:
+#0 C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\my-ch\\...')
+#2 C:\Users\my-ch\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\my-ch\\...')
+#3 {main}
+  thrown in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 21
+[19-Oct-2023 10:03:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_parent_title() in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php:21
+Stack trace:
+#0 C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\my-ch\\...')
+#2 C:\Users\my-ch\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\my-ch\\...')
+#3 {main}
+  thrown in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 21
+[19-Oct-2023 14:48:33 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 36
