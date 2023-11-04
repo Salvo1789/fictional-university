@@ -3,6 +3,7 @@
             'rewrite' => array(
                 'slug' => 'events'
             ),
+            'supports' => array('title','editor','excerpt'),
             'has_archive' => true,
             'public' => true,
             'menu_icon' => 'dashicons-calendar',
