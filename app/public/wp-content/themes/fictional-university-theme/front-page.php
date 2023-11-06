@@ -16,9 +16,21 @@
       <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
 
       <?php 
+      $today = date('Ymd');
         $homepageEvents = new WP_QUERY(array(
-          'posts_per_page' => 'two',
-          'post_type' => 'event'
+          'posts_per_page' => 3,
+          'post_type' => 'event',
+          'orderby' => 'meta_value_num',
+          'meta_key' => 'event_date',
+          'order' => 'ASC',
+          'meta_query' => array(
+            array(
+              'key' => 'event_date',
+              'compare' => '>=',
+              'value' => $today,
+              'type' => 'numeric'
+            )
+          )
         ));
 
         while($homepageEvents->have_posts()){
@@ -41,7 +53,7 @@
         </div>
       </div>
         <?php }
-        wp_reset_postdata();
+        
       ?>
       <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event') ?>" class="btn btn--blue">View All Events</a></p>
     </div>
@@ -52,7 +64,7 @@
       <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
       <?php
       $homepagePosts = new WP_Query(array(
-        'posts_per_page' => 'two'
+        'posts_per_page' => 3
       ));
 
 
@@ -73,7 +85,7 @@
           </div>
         </div>
       <?php }
-      wp_reset_postdata();
+      
       ?>
 
       <p class="t-center no-margin"><a href="<?php echo site_url('/blog')?>" class="btn btn--yellow">View All Blog Posts</a></p>

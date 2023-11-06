@@ -65,3 +65,4 @@ Stack trace:
 [23-Oct-2023 13:37:45 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single.php on line 19
 [23-Oct-2023 13:37:45 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single.php on line 19
 [23-Oct-2023 13:39:24 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single.php on line 19
+[06-Nov-2023 16:15:36 UTC] PHP Warning:  Undefined variable $today in C:\Users\my-ch\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page-past-events.php on line 30
